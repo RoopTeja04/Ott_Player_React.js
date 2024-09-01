@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Anek Devanagari", sans-serif;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+.nav{
+    display: flex;
+    margin: 10px 0 0 15px;
+}
+.nav-logo{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.nav-tab{
+    display: flex;
+    list-style: none;
+    margin: 35px 0 0 15%;
+}
+.nav-tab-link{
+    text-decoration: none;
+}
+.nav-tab-options{
+    font-size: 20px;
+    margin:  0 0 0 65px;
+    transition: 0.5s ease-in-out;
+}
+.nav-tab-options:hover{
+    color: rgb(33, 199, 8);
+}
+.headline-sub{
+    padding: 10px 0 0 40px;
+    font-size: 22px;
+}
+.movie-poster{
+    text-align: center;
+    position: relative;
+}
+.movie-slider-items{
+    margin: 0 2% 0 2%;
+}
+.movie-poster-list{
+    display: flex;
+    flex-direction: row;
+}
+.movie-images{
+    height: 22vh;
+    margin: 10px 0px 0 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    image-resolution:initial ;
+}
+.item-movie-image{
+    height: 85vh;
+    width: 100%;
+    opacity: 0.35;
+    border-radius: 25px;
+}
+.movie-single{
+    margin: 5px 15px 0 15px ;
+}
+.movie-single-details{
+    position: absolute;
+    left: 3%;
+    bottom: 25%;
+    background: none;
+}
+.movie-single-name{
+    background: none;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.movie-single-duration{
+    background: none;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.movie-single-button{
+    position: absolute;
+    left: 3%;
+    bottom: 8%;
+    background: none;
+}
+.movie-single-play{
+    height: 8.5vh;
+    width: 200%;
+    font-size: 22px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    color: black;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    padding-top: 5px;
+    cursor: pointer;
+    margin: 10px 0 23px 2px;
+}
+.movie-single-list{
+    position: absolute;
+    left: 16%;
+    bottom: 11.5%;
+    background: none;
+    border: none;
+}
+.movie-single-over-view{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 15px 0 0 30px;
+    font-weight: 400;
+}
+.movie-single-cast{
+    margin: 20px 0 0 30px;
+}
+.movie-single-cast-head{
+    font-size: 35px;
+}
+.movie-single-cast-members{
+    display: flex;
+}
+.movie-single-cast-mem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 60px 0 0px;
+}
+.movie-single-cast-image{
+    border-radius: 20px;
+    height: 25vh;
+}
+.movie-single-cast-name{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+    padding: 15px 0 0 0;
+}
+.subscription{
+    display: flex;
+}
+.sub-plans{
+    border: 1px solid rgb(66, 66, 66);
+    height: 65vh;
+    width: 45%;
+    margin: 6% 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.plan-name{
+    margin-top: 25px;
+    font-size: 35px;
+    font-weight: 550;
+}
+.plan-features{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.plan-features-sub{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 15px 0;
+}
+.plan-features-des{
+    font-size: 20px;
+}
+.price-sub{
+    font-size: 30px;
+    font-weight: 600;
+}
+.clam-now{
+    margin-top: 10px;
+    height: 6vh;
+    width: 50%;
+    font-size: 22px;
+    border: 1px solid rgb(66, 66, 66);
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.clam-now:hover{
+    background-color: rgb(19, 203, 6);
+}
+.banner-image{
+    margin-right: 25px;
+}
+.popup{
+    position: absolute;
+    bottom: 15%;
+    left: 35%;
+    height: 35vh;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    border: 1.5px solid whitesmoke;
+}
+.popup-close{
+    margin: 15px 0 0 88%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.sub-button{
+    height: 7vh;
+    background: none;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.popup-msg{
+    font-size: 30px;
+    margin: 10px 25px 0 25px;
+    font-weight: 500;
+}
+.banner{
+    margin: 25px 0px 0px 0;
+}
+.banner-name{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: rgb(1, 189, 126);
+}
